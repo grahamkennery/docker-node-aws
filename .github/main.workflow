@@ -1,5 +1,5 @@
 workflow "Build and publish" {
-  resolves = ["registry-login", "registry-push"]
+  resolves = ["registry-push"]
   on = "push"
 }
 
